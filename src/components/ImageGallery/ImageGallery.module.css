@@ -1,0 +1,24 @@
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.li {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.li:hover {
+  transform: scale(1.05);
+}
